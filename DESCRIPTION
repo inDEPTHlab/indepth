@@ -1,0 +1,19 @@
+Package: indepth
+Title: Collection of functions used for genetic and epigenetic analyses
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alexander", "Neumann", , "alexander.neumann.science@gmail.com",
+    role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6653-3203"))
+Description: A collection of functions commonly used in genetic and epigenetic
+             analyses used in the inDEPTH lab.VariantAnnotation
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends:
+    R (>= 4.1.2)
+biocViews:
+Imports:
+    VariantAnnotation,
+    data.table
